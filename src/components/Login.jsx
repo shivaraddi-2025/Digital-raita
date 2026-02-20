@@ -48,7 +48,12 @@ const Login = ({ onSwitchToSignup }) => {
 
   return (
     <div className="w-full max-w-md mx-auto bg-white rounded-xl shadow-md p-6 md:p-8">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">
+      {/* App Name Added Here */}
+      <h1 className="text-3xl font-bold text-green-700 mb-2 text-center">
+        Digital ರೈತ
+      </h1>
+      
+      <h2 className="text-xl font-medium text-gray-600 mb-6 text-center">
         {t('login')}
       </h2>
       
