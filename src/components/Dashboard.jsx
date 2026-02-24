@@ -1044,7 +1044,7 @@ const Dashboard = () => {
               <div className="p-6">
                 <FeedbackForm 
                   predictionId={currentPredictionId} 
-                  onClose={() => setShowFeedbackForm(false)} 
+                  onClose={() => setShowFeedbackForm(false)} c
                 />
               </div>
             </div>
